@@ -7,7 +7,10 @@ curses.curs_set(0)
 sh, sw = s.getmaxyx()
 w = curses.newwin(sh, sw, 0, 0)
 w.keypad(1)
-w.timeout(70)
+w.timeout(75)
+
+
+
 
 # Initial position of the snake
 snk_x = sw // 4

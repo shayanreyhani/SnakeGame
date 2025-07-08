@@ -1,2 +1,3 @@
-python data .txt
 readdata.txt
+python data 1.txt
+snake game
